@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Dense, Dropout, LSTM, SimpleRNN
 from tensorflow.keras.callbacks import EarlyStopping
 
 from Config import SEED_DL
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 from TreeModels import majority_vote
 
 tf.random.set_seed(SEED_DL)

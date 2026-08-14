@@ -8,7 +8,7 @@ import numpy as np
 import seaborn as sns
 
 from Config import CORR_COLS, FIGURE_DIR
-from Utils import load_artifact, section
+from Utils import load_artifact
 
 
 def create_corr_matrix_plot(train_df):

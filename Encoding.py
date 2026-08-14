@@ -1,7 +1,7 @@
 import pandas as pd
 
 from Config import CAT_COLS_TO_ENCODE, TARGET_COL
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def encode_target(train_df):

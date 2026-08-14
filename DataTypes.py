@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 from Config import INTEGER_COLS, CHARACTER_COLS
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def _r_as_integer(series):

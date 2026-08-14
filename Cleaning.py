@@ -5,7 +5,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from Config import CAT_VARS, NUM_VARS, FIGURE_DIR
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def inspect_missing(train_data, test_data):

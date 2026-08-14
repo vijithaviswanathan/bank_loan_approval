@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 
 from Config import FIGURE_DIR
-from Utils import load_artifact, section
+from Utils import load_artifact
 
 
 def main():

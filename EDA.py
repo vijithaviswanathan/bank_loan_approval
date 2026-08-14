@@ -5,7 +5,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from Config import ORIGINAL_COLS, FIGURE_DIR, TARGET_COL
-from Utils import load_artifact, section
+from Utils import load_artifact
 
 
 def figure_6a_attribute_overview(train_data):

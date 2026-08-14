@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from Config import NUM_VARS, FIGURE_DIR
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def skewness(x):

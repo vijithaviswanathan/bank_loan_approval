@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy.spatial.distance import cdist
 
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 RNG = np.random.default_rng() 
 

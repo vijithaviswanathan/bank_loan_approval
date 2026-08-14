@@ -12,7 +12,7 @@ from sklearn.ensemble import AdaBoostClassifier, GradientBoostingClassifier
 from sklearn.preprocessing import StandardScaler
 
 from Config import MODEL_DIR, SEED_MODELS_2
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 from TreeModels import majority_vote
 
 

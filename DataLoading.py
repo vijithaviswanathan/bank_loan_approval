@@ -1,7 +1,7 @@
 import pandas as pd
 
 from Config import TRAIN_RAW_PATH, TEST_RAW_PATH, TARGET_COL
-from Utils import save_artifact, section
+from Utils import save_artifact
 
 
 def load_data(train_path=TRAIN_RAW_PATH, test_path=TEST_RAW_PATH):

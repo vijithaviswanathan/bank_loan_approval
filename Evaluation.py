@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from Config import FIGURE_DIR
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def calculate_detailed_metrics(predictions, actual):

@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 from Config import MODEL_FEATURE_COLS
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def relabel_loan_status(train_subset, valid_subset):

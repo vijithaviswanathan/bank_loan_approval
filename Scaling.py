@@ -1,7 +1,7 @@
 from sklearn.preprocessing import MinMaxScaler
 
 from Config import NUM_COLS_FOR_SCALING
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def min_max_scale(train_df, test_df):

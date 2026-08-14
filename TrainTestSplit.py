@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 
 from Config import SEED_SPLIT_1, SEED_SPLIT_2, TARGET_COL
-from Utils import load_artifact, save_artifact, section
+from Utils import load_artifact, save_artifact
 
 
 def simple_random_split(train_df, seed=SEED_SPLIT_1):

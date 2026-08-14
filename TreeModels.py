@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix
 
 from Config import MODEL_FEATURE_COLS, MODEL_DIR, SEED_MODELS_1
-from Utils import load_artifact, save_artifact, build_design_matrix, section
+from Utils import load_artifact, save_artifact, build_design_matrix
 
 
 def train_decision_tree(X_train, y_train, seed=SEED_MODELS_1):

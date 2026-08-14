@@ -7,7 +7,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from Config import FIGURE_DIR
-from Utils import load_artifact, section
+from Utils import load_artifact
 
 
 def plot_single_importance(importance_df, title, filename, ylabel="Importance"):

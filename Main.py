@@ -1,5 +1,3 @@
-from Utils import section
-
 import DataLoading
 import EDA
 import Cleaning

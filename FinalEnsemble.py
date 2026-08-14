@@ -8,7 +8,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 from Config import FIGURE_DIR, MODEL_DIR
-from Utils import load_artifact, section
+from Utils import load_artifact
 from Evaluation import calculate_detailed_metrics, plot_confusion_matrix
 from TreeModels import majority_vote
 
